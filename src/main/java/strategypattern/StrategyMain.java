@@ -1,9 +1,9 @@
 package strategypattern;
 
-import strategypattern.characters.Character;
-import strategypattern.characters.King;
-import strategypattern.characters.Queen;
-import strategypattern.weapons.AxeBehavior;
+import strategypattern.character.Character;
+import strategypattern.character.King;
+import strategypattern.character.Queen;
+import strategypattern.behavior.AxeBehavior;
 
 public class StrategyMain
 {

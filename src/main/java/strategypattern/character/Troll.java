@@ -1,6 +1,6 @@
-package strategypattern.characters;
+package strategypattern.character;
 
-import strategypattern.weapons.AxeBehavior;
+import strategypattern.behavior.AxeBehavior;
 
 public class Troll extends Character
 {

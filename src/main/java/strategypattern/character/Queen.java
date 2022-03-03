@@ -1,6 +1,6 @@
-package strategypattern.characters;
+package strategypattern.character;
 
-import strategypattern.weapons.BowAndArrowBehavior;
+import strategypattern.behavior.BowAndArrowBehavior;
 
 public class Queen extends Character
 {

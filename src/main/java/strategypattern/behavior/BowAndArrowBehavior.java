@@ -1,4 +1,4 @@
-package strategypattern.weapons;
+package strategypattern.behavior;
 
 public class BowAndArrowBehavior implements WeaponBehavior
 {
