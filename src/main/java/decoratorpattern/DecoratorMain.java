@@ -7,6 +7,13 @@ public class DecoratorMain
 {
   public static void main(String[] args)
   {
+    //Create espresso with caramel and sugar
+    Beverage espresso2 = new CaramelDecorator(new SugarDecorator(new Espresso()));
+    System.out.println(espresso2.getDescription());
+    System.out.println(espresso2.getCost());
+
+    System.out.println("---------------------");
+
     Beverage espresso = new Espresso();
     System.out.println(espresso.getDescription());
     System.out.println(espresso.getCost());
@@ -24,5 +31,6 @@ public class DecoratorMain
     SugarDecorator sugarDecorator = new SugarDecorator(caramelDecorator);
     System.out.println(sugarDecorator.getDescription());
     System.out.println(sugarDecorator.getCost());
+
   }
 }
