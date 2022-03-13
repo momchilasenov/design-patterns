@@ -8,7 +8,7 @@ public class DecoratorMain
   public static void main(String[] args)
   {
     //Create espresso with caramel and sugar
-    Beverage espresso2 = new CaramelDecorator(new SugarDecorator(new Espresso()));
+    Beverage espresso2 = new CaramelDecorator(new SugarDecorator(new Espresso())); //new Espresso() is the base case
     System.out.println(espresso2.getDescription());
     System.out.println(espresso2.getCost());
 
